@@ -1,5 +1,7 @@
 // link :: https://school.programmers.co.kr/learn/courses/30/lessons/120837
 
+// Blogged post link :: https://medium.com/@va1afar.biz/programmers-coding-test-lv-0-the-ant-corps-94c1b6c1aee
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
