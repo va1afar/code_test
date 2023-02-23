@@ -4,7 +4,7 @@
 - **_There may be better solutions than a recorded._**<br/>
   _ここのコードより良い解答がある可能性があります。_<br/>
 - **_Some of problems that i solved are uploaded in Japanese to my personal blog._**<br/>
-  _解決した問題の一部は個人ブログにアップロードしています。_<br/>
+  _解決した問題の一部は個人ブログにてアップロードしています。_<br/>
   [https://medium.com/@va1afar.biz]
 
 
