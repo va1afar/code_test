@@ -1,3 +1,8 @@
+# link :: https://school.programmers.co.kr/learn/courses/30/lessons/131705
+
+# blogged link :: https://medium.com/@va1afar.biz/programmers-coding-test-lv-1-the-trio-2787072bb94
+
+
 def solution(number):
     answer = 0
     
