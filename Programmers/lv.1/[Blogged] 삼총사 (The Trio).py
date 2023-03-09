@@ -2,6 +2,8 @@
 
 # blogged link :: https://medium.com/@va1afar.biz/programmers-coding-test-lv-1-the-trio-2787072bb94
 
+# simpler solution :: https://medium.com/@va1afar.biz/programmers-coding-test-lv-1-the-trio-%E3%81%AE%E3%82%88%E3%82%8A%E7%B0%A1%E5%8D%98%E3%81%AA%E8%A7%A3%E6%B3%95-7465d58930db
+
 
 def solution(number):
     answer = 0
