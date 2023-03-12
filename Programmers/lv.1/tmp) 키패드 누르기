@@ -58,5 +58,6 @@ def abs_diff(i, left_position, right_position, hand):
     else:
         return hand_alphabet
        
------- 까지 1차 실패한 코드 -------        
+------ 까지 1차 실패한 코드 -------  
+ㄴ 대각선 길이까지 생각해보려다가 실패함, 문제를 다시 한번 자세히 읽어보니 가로세로 차이값의 합인 것 같았다.
 아래는 새로 혼자 짜볼 코드.
