@@ -61,3 +61,39 @@ def abs_diff(i, left_position, right_position, hand):
 ------ 까지 1차 실패한 코드 -------  
 ㄴ 대각선 길이까지 생각해보려다가 실패함, 문제를 다시 한번 자세히 읽어보니 가로세로 차이값의 합인 것 같았다.
 아래는 새로 혼자 짜볼 코드.
+
+def solution(numbers, hand):
+    answer = ''
+    Lpos = [0,3]
+    Rpos = [2,3]
+    key_dict = {1:[0,0], 2:[1,0], 3:[2,0],
+                4:[0,1], 5:[1,1], 6:[2,1],
+                7:[0,2], 8:[1,2], 9:[2,2],
+                         0:[1,3]}
+    
+    for i in numbers:
+        if i == 1 or i == 4 or i == 7:
+            answer += 'L'
+            Lpos = key_dict[i]
+        elif i == 3 or i == 6 or i == 9:
+            answer += 'R'
+            Rpos = key_dict[i]
+        else:
+            Ldist = abs(Lpos[0]-key_dict[i][0]) + abs(Lpos[1]-key_dict[i][1]) 
+            Rdist = abs(Rpos[0]-key_dict[i][0]) + abs(Rpos[1]-key_dict[i][1])
+            if Ldist < Rdist:
+                answer += 'L'
+                Lpos = key_dict[i]
+            elif Ldist > Rdist:
+                answer += 'R'
+                Rpos = key_dict[i]
+            else:
+                if hand == 'left':
+                    answer += 'L'
+                    Lpos = key_dict[i]
+                else:
+                    answer += 'R'
+                    Rpos = key_dict[i]
+                    
+                
+    return answer
