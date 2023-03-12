@@ -1,5 +1,7 @@
 # link :: https://school.programmers.co.kr/learn/courses/30/lessons/68935
 
+# blogged link :: https://medium.com/@va1afar.biz/programmers-coding-test-lv-1-the-trio-のより簡単な解法-7465d58930db
+
 def solution(n):
     answer = 0
     triad_n = ''
