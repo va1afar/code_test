@@ -5,7 +5,7 @@
 def solution(s):
     answer = ''
     list_s = []
-    cnt = 0
+    cnt = 0     
     
     for i, word in enumerate(s):
         if word == ' ':
