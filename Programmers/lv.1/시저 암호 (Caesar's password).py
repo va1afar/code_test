@@ -3,8 +3,6 @@
 def solution(s, n):
     answer = ''
     
-    print(ord(s[0]))
-    
     for i in s:
         if i == ' ':
             answer += ' '
