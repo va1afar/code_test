@@ -15,3 +15,9 @@ def solution(s):
     answer = str(min(list_s)) + ' ' + str(max(list_s))
     
     return answer
+
+# より簡単なコード
+# def solution(s):
+#     arr = list(map(int, s.split(' '))) # split()を使い空白で区別、リストを作成
+#     arr.sort()                             
+#     return str(arr[0]) + " " + str(arr[-1])
