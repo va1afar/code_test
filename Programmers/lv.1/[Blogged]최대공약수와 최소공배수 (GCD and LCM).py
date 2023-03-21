@@ -1,5 +1,7 @@
 # link :: https://school.programmers.co.kr/learn/courses/30/lessons/12940
 
+# blogged link :: https://medium.com/@va1afar.biz/programmers-coding-test-lv-1-gcd-and-lcm-8cd64071d176
+
 def solution(n, m):
     answer = []
     # どっちの数が大きいか分からないため、確認します。
