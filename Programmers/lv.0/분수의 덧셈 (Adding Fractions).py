@@ -1,8 +1,5 @@
 # link :: https://school.programmers.co.kr/learn/courses/30/lessons/120808
 
-# I'll try to solve it again in a more efficient way.
-# ex) Euclidean Hoze Method
-
 def solution(numer1, denom1, numer2, denom2):
     answer = []
     multiple = 0
