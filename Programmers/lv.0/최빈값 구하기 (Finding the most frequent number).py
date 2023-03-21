@@ -1,7 +1,5 @@
 # link :: https://school.programmers.co.kr/learn/courses/30/lessons/120812
 
-# I'll try to solve this problem again in a more efficient way soon.
-# ex) Euclidean Hoze Method
 
 from collections import Counter
 
