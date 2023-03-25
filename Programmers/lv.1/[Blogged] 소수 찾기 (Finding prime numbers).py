@@ -1,6 +1,6 @@
 # link :: https://school.programmers.co.kr/learn/courses/30/lessons/12921
 
-# blogged link ::
+# blogged link ::https://medium.com/@va1afar.biz/programmers-coding-test-lv-1-finding-prime-numbers-f2d45ad69161
 
 import math
 
