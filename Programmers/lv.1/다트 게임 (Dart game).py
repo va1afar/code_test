@@ -6,6 +6,8 @@ def solution(dartResult):
     digit = ''
     
     for i, word in enumerate(dartResult):
+        # S,D,Tが出るまで"digit"に数字を保存。
+	# # S,D,Tそれぞれの場合を計算し、"score"に追加
         if word.isdigit():
             digit += word
         elif word.isalpha():
