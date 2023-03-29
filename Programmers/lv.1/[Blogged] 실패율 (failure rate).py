@@ -1,6 +1,6 @@
 # link :: https://school.programmers.co.kr/learn/courses/30/lessons/42889
 
-
+# blogged link :: https://medium.com/@va1afar.biz/2019-kakao-ブラインド採用-programmers-coding-test-lv-1-failure-rate-d48ee7becc17
 
 def solution(N, stages):
     answer = []
@@ -8,7 +8,9 @@ def solution(N, stages):
     failed = 0
     reached = 0
     
-    
+    # for文で失敗率を計算し、fail_rateに2次元リストの形で保存します。
+    # その後、sorted()を使って失敗率の高い順から優先的に整列、
+    # 同じ場合は正順で整列しました。
     for i in range(1, N+1):
         for j in stages:
             if i == j:
