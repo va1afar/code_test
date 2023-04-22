@@ -1,5 +1,7 @@
 # link :: https://school.programmers.co.kr/learn/courses/30/lessons/72410
 
+# 2021 KAKAO BLIND RECRUITMENT code test problem.
+
 def solution(new_id):
     answer = ''
     allowed_list = ['-', '_', '.']
